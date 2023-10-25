@@ -2,3 +2,30 @@
     margin: 0;
     padding: 0;
 }
+
+#container{
+    height: 400vh;
+    width: 400vw;
+    margin: 50px;
+    border: solid 1px green;
+}
+
+.row{
+    width: 100px;
+    height: 25px;
+    border: solid 1px red;
+}
+
+.gridBox{
+    border: solid 1px black;
+}
+
+.cellBox{
+    border: solid 1px blue;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
